@@ -26,10 +26,10 @@ const Navbar = () => {
 
       {menuOpen && (
         <div className="md:hidden mt-2 space-y-2 flex flex-col bg-green-600 px-4 py-3 rounded">
-          <a href="#home" className="hover:text-gray-300 transition">Home</a>
+          {/* <a href="#home" className="hover:text-gray-300 transition">Home</a> */}
           <a href="#about" className="hover:text-gray-300 transition">About</a>
-          <a href="#gallery" className="hover:text-gray-300 transition">Gallery</a>
-          <a href="#events" className="hover:text-gray-300 transition">Events</a>
+          {/* <a href="#gallery" className="hover:text-gray-300 transition">Gallery</a>
+          <a href="#events" className="hover:text-gray-300 transition">Events</a> */}
           <a href="#contact" className="hover:text-gray-300 transition">Contact</a>
         </div>
       )}
